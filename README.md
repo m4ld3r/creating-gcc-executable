@@ -1,5 +1,9 @@
 ## Must be installed:
+Cowsay
+
+gcc (g++)
 
 ## Start:
-1. Allow file execution: chmod +x /PATH/./gcc_cpp
-2. Then start the file in the console or UI
+- Allow file execution: chmod +x /PATH/./gcc_cpp
+- Then start the file in the console or UI
+- And then follow the instructions
