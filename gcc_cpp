@@ -1,7 +1,7 @@
 #!/usr/bin/bash
-echo "Введите путь до компилируемого файла: "
+echo "Enter the PATH to the compiled file: "
 read way
-cowsay -f stimpy "Начинаю хуярить через..."
+cowsay -f stimpy "I start fucking through..."
 sleep 2
 echo "3"
 sleep 2
@@ -9,13 +9,10 @@ echo "2"
 sleep 2
 echo "1"
 sleep 2
-echo "Полетели. Для запуска исполняемого файла нажмите ctrl+z"
+echo "Let's go. For watch result program press ctrl+z"
 sleep 2
 while :
     do
 	g++ $way -lm -o ${way%%.cpp}
-	#i686-w64-mingw32-g++ -o ${1%%.cpp}32.exe $1
-	#x86_64-w64-mingw32-gcc -o ${1%%.cpp}64.exe $1
-	#i686-w64-mingw32-g++ -static-libgcc -static-libstdc++ $1
 	trap "./${way%%.cpp}" SIGTSTP
     done
