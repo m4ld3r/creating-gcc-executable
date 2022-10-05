@@ -12,3 +12,5 @@ Cowsay
 [ ] Normal program start with a pause in compilation
 
 [ ] **Possible** compilation of an exe-file
+
+[ ] Normal line break after the command ctrl+z
