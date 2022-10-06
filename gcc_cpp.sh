@@ -14,5 +14,6 @@ sleep 2
 while :
     do
 	g++ $way -lm -o ${way%%.cpp}
+	chmod +x ${way%%.cpp}
 	trap "./${way%%.cpp}" SIGTSTP
     done
