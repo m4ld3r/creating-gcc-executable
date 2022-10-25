@@ -1,6 +1,4 @@
 ## Must be installed:
-Cowsay
-
 **gcc (g++)**
 
 ## Start:
