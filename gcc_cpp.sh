@@ -32,6 +32,7 @@ while :
 			g++ $way -lm -o ${way%%.cpp}
 		fi
 		chmod +x ${way%%.cpp}
+		sleep 10
 		#здесь однажды будет сбока exe...
 		trap "./${way%%.cpp}" SIGTSTP
 	done
