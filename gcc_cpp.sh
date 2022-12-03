@@ -34,5 +34,5 @@ while :
 		chmod +x ${way%%.cpp}
 		sleep 10
 		#здесь однажды будет сбока exe и нормальный запуск...
-		#trap "./${way%%.cpp}" SIGTSTP
+		trap "./${way%%.cpp}" SIGTSTP
 	done
